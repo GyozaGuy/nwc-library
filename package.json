@@ -1,0 +1,18 @@
+{
+  "name": "nwc-library",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:GyozaGuy/nwc-library.git",
+  "author": "GyozaGuy <gyozaguy@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/preset-env": "^7.16.11",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.5.1"
+  }
+}

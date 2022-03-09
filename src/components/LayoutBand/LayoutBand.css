@@ -1,0 +1,50 @@
+ui-layout-band {
+  background-color: var(--layout-band-background-color);
+  color: var(--layout-band-font-color);
+  display: block;
+  margin: auto;
+  max-width: 60vw;
+  padding: var(--padding-size);
+  padding-left: 0;
+  padding-right: 0;
+  position: relative;
+  width: 100%;
+}
+
+ui-layout-band::before,
+ui-layout-band::after {
+  background-color: var(--layout-band-background-color);
+  content: '';
+  height: 100%;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+ui-layout-band::before {
+  right: 100%;
+}
+
+ui-layout-band::after {
+  left: 100%;
+}
+
+ui-layout-band[size="xs"] {
+  max-width: 40vw;
+}
+
+ui-layout-band[size="sm"] {
+  max-width: 50vw;
+}
+
+ui-layout-band[size="lg"] {
+  max-width: 70vw;
+}
+
+ui-layout-band[size="xl"] {
+  max-width: 80vw;
+}
+
+ui-layout-band[size="xxl"] {
+  max-width: 90vw;
+}

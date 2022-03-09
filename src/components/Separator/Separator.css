@@ -1,0 +1,24 @@
+ui-separator {
+  display: block;
+  padding: var(--size-md);
+}
+
+ui-separator[size="xs"] {
+  padding: var(--size-xs);
+}
+
+ui-separator[size="sm"] {
+  padding: var(--size-sm);
+}
+
+ui-separator[size="lg"] {
+  padding: var(--size-lg);
+}
+
+ui-separator[size="xl"] {
+  padding: var(--size-xl);
+}
+
+ui-separator[size="xxl"] {
+  padding: var(--size-xxl);
+}
