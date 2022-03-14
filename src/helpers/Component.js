@@ -9,6 +9,6 @@ export default class extends HTMLElement {
   }
 
   render() {
-    return '';
+    return '<slot></slot>';
   }
 }
