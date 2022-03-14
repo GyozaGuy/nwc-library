@@ -1,4 +1,4 @@
-ui-card {
+:host {
   background-color: var(--card-background-color, lightgrey);
   border-radius: var(--border-radius);
   box-shadow: 0 2px 4px black;
