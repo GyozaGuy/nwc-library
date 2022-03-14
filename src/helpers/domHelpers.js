@@ -3,3 +3,15 @@ export function clearChildren(el) {
     el.lastChild.remove();
   }
 }
+
+export function css(cssStrings, ...parts) {
+  return `
+    <style>
+      ${cssStrings.reduce((acc, cur, i) => `${acc}${cur}${parts[i] || ''}`, '')}
+    </style>
+  `;
+}
+
+export function html(htmlStrings, ...parts) {
+  return htmlStrings.reduce((acc, cur, i) => `${acc}${cur}${parts[i] || ''}`, '');
+}
