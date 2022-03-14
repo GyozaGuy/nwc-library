@@ -1,0 +1,103 @@
+:root {
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-md: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-xxl: 22px;
+
+  --size-xs: 4px;
+  --size-sm: 8px;
+  --size-md: 16px;
+  --size-lg: 32px;
+  --size-xl: 64px;
+  --size-xxl: 128px;
+
+  --border-radius: 4px;
+  --padding-size: var(--size-md);
+}
+
+/* UI Styles */
+
+[bleed] {
+  margin: calc(var(--padding-size) * -1);
+}
+
+[bleed-bottom] {
+  margin-bottom: calc(var(--padding-size) * -1);
+}
+
+[bleed-left] {
+  margin-left: calc(var(--padding-size) * -1);
+}
+
+[bleed-right] {
+  margin-right: calc(var(--padding-size) * -1);
+}
+
+[bleed-sides] {
+  margin-left: calc(var(--padding-size) * -1);
+  margin-right: calc(var(--padding-size) * -1);
+}
+
+[bleed-top] {
+  margin-top: calc(var(--padding-size) * -1);
+}
+
+[font-size="xs"] {
+  --font-size: var(--font-size-xs);
+}
+
+[font-size="sm"] {
+  --font-size: var(--font-size-sm);
+}
+
+[font-size="md"] {
+  --font-size: var(--font-size-md);
+}
+
+[font-size="lg"] {
+  --font-size: var(--font-size-lg);
+}
+
+[font-size="xl"] {
+  --font-size: var(--font-size-xl);
+}
+
+[font-size="xxl"] {
+  --font-size: var(--font-size-xxl);
+}
+
+[no-padding] {
+  padding: unset;
+}
+
+[padding-size="xs"] {
+  --padding-size: var(--size-xs);
+  padding: var(--size-xs);
+}
+
+[padding-size="sm"] {
+  --padding-size: var(--size-sm);
+  padding: var(--size-sm);
+}
+
+[padding-size="md"] {
+  --padding-size: var(--size-md);
+  padding: var(--size-md);
+}
+
+[padding-size="lg"] {
+  --padding-size: var(--size-lg);
+  padding: var(--size-lg);
+}
+
+[padding-size="xl"] {
+  --padding-size: var(--size-xl);
+  padding: var(--size-xl);
+}
+
+[padding-size="xxl"] {
+  --padding-size: var(--size-xxl);
+  padding: var(--size-xxl);
+}
