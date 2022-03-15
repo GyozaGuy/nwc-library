@@ -1,5 +1,5 @@
 import { Component, css } from '../../helpers';
-import styles from './Card.css';
+import styles from './UiCard.css';
 
 class UiCard extends Component {
   static styles = css`
