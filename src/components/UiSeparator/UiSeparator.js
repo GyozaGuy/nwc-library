@@ -1,3 +1,10 @@
-import './Separator.css';
+import { Component, css } from '../../helpers';
+import styles from './UiSeparator.css';
 
-customElements.define('ui-separator', class extends HTMLElement {});
+class UiSeparator extends Component {
+  static styles = css`
+    ${styles}
+  `;
+}
+
+customElements.define('ui-separator', UiSeparator);
