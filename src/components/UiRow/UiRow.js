@@ -1,3 +1,10 @@
-import './Row.css';
+import { Component, css } from '../../helpers';
+import styles from './UiRow.css';
 
-customElements.define('ui-row', class extends HTMLElement {});
+class UiRow extends Component {
+  static styles = css`
+    ${styles}
+  `;
+}
+
+customElements.define('ui-row', UiRow);
