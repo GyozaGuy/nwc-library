@@ -1,1 +1,1 @@
-import './src';
+import './dist/main.bundle';
