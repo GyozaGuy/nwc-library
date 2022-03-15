@@ -11,4 +11,8 @@ export default class extends HTMLElement {
   render() {
     return '<slot></slot>';
   }
+
+  update() {
+    this.shadowRoot.innerHTML = this.render();
+  }
 }
