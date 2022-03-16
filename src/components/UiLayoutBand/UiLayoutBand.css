@@ -14,22 +14,22 @@
   max-width: 60%;
 }
 
-:host[size='xs'] > section {
+:host([size='xs']) > section {
   max-width: 40%;
 }
 
-:host[size='sm'] > section {
+:host([size='sm']) > section {
   max-width: 50%;
 }
 
-:host[size='lg'] > section {
+:host([size='lg']) > section {
   max-width: 70%;
 }
 
-:host[size='xl'] > section {
+:host([size='xl']) > section {
   max-width: 80%;
 }
 
-:host[size='xxl'] > section {
+:host([size='xxl']) > section {
   max-width: 90%;
 }
