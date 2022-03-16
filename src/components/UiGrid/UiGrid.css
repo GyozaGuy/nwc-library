@@ -1,0 +1,49 @@
+:host {
+  display: grid;
+  gap: var(--gap);
+  grid-template-columns: repeat(12, 1fr);
+}
+
+::slotted([columns="2"]) {
+  grid-column: span 2;
+}
+
+::slotted([columns="3"]) {
+  grid-column: span 3;
+}
+
+::slotted([columns="4"]) {
+  grid-column: span 4;
+}
+
+::slotted([columns="5"]) {
+  grid-column: span 5;
+}
+
+::slotted([columns="6"]) {
+  grid-column: span 6;
+}
+
+::slotted([columns="7"]) {
+  grid-column: span 7;
+}
+
+::slotted([columns="8"]) {
+  grid-column: span 8;
+}
+
+::slotted([columns="9"]) {
+  grid-column: span 9;
+}
+
+::slotted([columns="10"]) {
+  grid-column: span 10;
+}
+
+::slotted([columns="11"]) {
+  grid-column: span 11;
+}
+
+::slotted([columns="12"]) {
+  grid-column: span 12;
+}
