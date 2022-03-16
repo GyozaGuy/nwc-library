@@ -2,31 +2,53 @@
   display: grid;
   gap: var(--size-md);
   grid-template-columns: repeat(12, 1fr);
+  padding: var(--size-md);
 }
 
 :host([gap='none']),
 :host([no-gap]) {
   gap: 0;
+  padding: 0);
 }
 
 :host([gap='xs']) {
   gap: var(--size-xs);
 }
 
+:host([gap='xs']:not([no-padding]):not([padding-size])) {
+  padding: var(--size-xs);
+}
+
 :host([gap='sm']) {
   gap: var(--size-sm);
+}
+
+:host([gap='sm']:not([no-padding]):not([padding-size])) {
+  padding: var(--size-sm);
 }
 
 :host([gap='lg']) {
   gap: var(--size-lg);
 }
 
+:host([gap='lg']:not([no-padding]):not([padding-size])) {
+  padding: var(--size-lg);
+}
+
 :host([gap='xl']) {
   gap: var(--size-xl);
 }
 
+:host([gap='xl']:not([no-padding]):not([padding-size])) {
+  padding: var(--size-xl);
+}
+
 :host([gap='xxl']) {
   gap: var(--size-xxl);
+}
+
+:host([gap='xxl']:not([no-padding]):not([padding-size])) {
+  padding: var(--size-xxl);
 }
 
 ::slotted([columns='2']) {
