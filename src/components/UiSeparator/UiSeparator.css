@@ -3,22 +3,22 @@
   padding: var(--size-md);
 }
 
-:host[size="xs"] {
+:host([size="xs"]) {
   padding: var(--size-xs);
 }
 
-:host[size="sm"] {
+:host([size="sm"]) {
   padding: var(--size-sm);
 }
 
-:host[size="lg"] {
+:host([size="lg"]) {
   padding: var(--size-lg);
 }
 
-:host[size="xl"] {
+:host([size="xl"]) {
   padding: var(--size-xl);
 }
 
-:host[size="xxl"] {
+:host([size="xxl"]) {
   padding: var(--size-xxl);
 }
