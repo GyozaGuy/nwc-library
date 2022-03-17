@@ -7,8 +7,11 @@ class UiLayoutBand extends Component {
   `;
 
   connected() {
-    this.style.setProperty('--layout-band-background-color', this.getAttribute('background-color'));
-    this.style.setProperty('--layout-band-font-color', this.getAttribute('font-color'));
+    this.style.setProperty(
+      '--ui-layout-band-background-color',
+      this.getAttribute('background-color')
+    );
+    this.style.setProperty('--ui-layout-band-font-color', this.getAttribute('font-color'));
   }
 
   render() {
