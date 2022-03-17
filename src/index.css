@@ -130,6 +130,11 @@ button[minor] {
   box-shadow: none;
 }
 
+button[minor]:active {
+  padding-bottom: calc(var(--size-sm) - 1px);
+  padding-top: calc(var(--size-sm) + 1px);
+}
+
 button[primary] {
   background-color: #07fa;
   border: 1px solid #07f7;
