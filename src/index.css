@@ -121,7 +121,7 @@ button:active {
 button[destructive] {
   background-color: #f00a;
   border: 1px solid #f007;
-  color: #500;
+  color: #400;
 }
 
 button[minor] {
