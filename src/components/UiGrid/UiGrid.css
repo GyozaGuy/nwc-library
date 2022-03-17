@@ -1,7 +1,7 @@
 :host {
   display: grid;
   gap: var(--size-md);
-  grid-template-columns: repeat(12, 1fr);
+  grid-template-columns: repeat(var(--ui-grid-columns, 12), 1fr);
   padding: var(--size-md);
 }
 
