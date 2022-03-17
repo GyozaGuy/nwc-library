@@ -6,7 +6,7 @@ class UiLayoutBand extends Component {
     ${styles}
   `;
 
-  connectedCallback() {
+  connected() {
     this.style.setProperty('--layout-band-background-color', this.getAttribute('background-color'));
     this.style.setProperty('--layout-band-font-color', this.getAttribute('font-color'));
   }

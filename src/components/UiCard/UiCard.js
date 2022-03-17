@@ -6,9 +6,9 @@ class UiCard extends Component {
     ${styles}
   `;
 
-  connectedCallback() {
-    this.style.setProperty('--card-background-color', this.getAttribute('background-color'));
-    this.style.setProperty('--card-font-color', this.getAttribute('font-color'));
+  connected() {
+    this.style.setProperty('--ui-card-background-color', this.getAttribute('background-color'));
+    this.style.setProperty('--ui-card-font-color', this.getAttribute('font-color'));
   }
 }
 

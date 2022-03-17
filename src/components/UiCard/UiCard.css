@@ -1,8 +1,8 @@
 :host {
-  background-color: var(--card-background-color, lightgrey);
+  background-color: var(--ui-card-background-color, lightgrey);
   border-radius: var(--border-radius);
   box-shadow: 0 2px 4px black;
-  color: var(--card-font-color);
+  color: var(--ui-card-font-color);
   display: inline-block;
   font-size: var(--font-size);
   padding: var(--padding-size);

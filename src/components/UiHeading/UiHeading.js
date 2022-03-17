@@ -6,7 +6,7 @@ class UiHeading extends Component {
     ${styles}
   `;
 
-  connectedCallback() {
+  connected() {
     this.update();
   }
 

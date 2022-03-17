@@ -8,6 +8,18 @@ export default class extends HTMLElement {
     `;
   }
 
+  connectedCallback() {
+    this.connected();
+  }
+
+  disconnectedCallback() {
+    this.disconnected();
+  }
+
+  connected() {}
+
+  disconnected() {}
+
   render() {
     return '<slot></slot>';
   }
