@@ -8,7 +8,7 @@
 :host([gap='none']),
 :host([no-gap]) {
   gap: 0;
-  padding: 0);
+  padding: 0;
 }
 
 :host([gap='xs']) {
