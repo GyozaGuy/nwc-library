@@ -1,24 +1,24 @@
-ui-separator {
+:host {
   display: block;
   padding: var(--size-md);
 }
 
-ui-separator[size="xs"] {
+:host([size="xs"]) {
   padding: var(--size-xs);
 }
 
-ui-separator[size="sm"] {
+:host([size="sm"]) {
   padding: var(--size-sm);
 }
 
-ui-separator[size="lg"] {
+:host([size="lg"]) {
   padding: var(--size-lg);
 }
 
-ui-separator[size="xl"] {
+:host([size="xl"]) {
   padding: var(--size-xl);
 }
 
-ui-separator[size="xxl"] {
+:host([size="xxl"]) {
   padding: var(--size-xxl);
 }

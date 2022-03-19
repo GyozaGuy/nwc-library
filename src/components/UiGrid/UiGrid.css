@@ -1,0 +1,96 @@
+:host {
+  display: grid;
+  gap: var(--size-md);
+  grid-template-columns: repeat(var(--ui-grid-columns, 12), 1fr);
+  padding: var(--size-md);
+}
+
+:host([gap='none']),
+:host([no-gap]) {
+  gap: 0;
+  padding: 0);
+}
+
+:host([gap='xs']) {
+  gap: var(--size-xs);
+}
+
+:host([gap='xs']:not([no-padding]):not([padding-size])) {
+  padding: var(--size-xs);
+}
+
+:host([gap='sm']) {
+  gap: var(--size-sm);
+}
+
+:host([gap='sm']:not([no-padding]):not([padding-size])) {
+  padding: var(--size-sm);
+}
+
+:host([gap='lg']) {
+  gap: var(--size-lg);
+}
+
+:host([gap='lg']:not([no-padding]):not([padding-size])) {
+  padding: var(--size-lg);
+}
+
+:host([gap='xl']) {
+  gap: var(--size-xl);
+}
+
+:host([gap='xl']:not([no-padding]):not([padding-size])) {
+  padding: var(--size-xl);
+}
+
+:host([gap='xxl']) {
+  gap: var(--size-xxl);
+}
+
+:host([gap='xxl']:not([no-padding]):not([padding-size])) {
+  padding: var(--size-xxl);
+}
+
+::slotted([columns='2']) {
+  grid-column: span 2;
+}
+
+::slotted([columns='3']) {
+  grid-column: span 3;
+}
+
+::slotted([columns='4']) {
+  grid-column: span 4;
+}
+
+::slotted([columns='5']) {
+  grid-column: span 5;
+}
+
+::slotted([columns='6']) {
+  grid-column: span 6;
+}
+
+::slotted([columns='7']) {
+  grid-column: span 7;
+}
+
+::slotted([columns='8']) {
+  grid-column: span 8;
+}
+
+::slotted([columns='9']) {
+  grid-column: span 9;
+}
+
+::slotted([columns='10']) {
+  grid-column: span 10;
+}
+
+::slotted([columns='11']) {
+  grid-column: span 11;
+}
+
+::slotted([columns='12']) {
+  grid-column: span 12;
+}

@@ -1,5 +1,5 @@
-import './Card/Card';
-import './Heading/Heading';
-import './LayoutBand/LayoutBand';
-import './Row/Row';
-import './Separator/Separator';
+import './UiCard/UiCard';
+import './UiGrid/UiGrid';
+import './UiLayoutBand/UiLayoutBand';
+import './UiRow/UiRow';
+import './UiSeparator/UiSeparator';
