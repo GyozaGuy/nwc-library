@@ -1,0 +1,50 @@
+#button {
+  background-color: lightgray;
+  border: 1px solid #0007;
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 4px #0007;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1em;
+  padding: var(--size-sm) var(--size-md);
+  text-decoration: none;
+}
+
+#button:active {
+  box-shadow: inset 0 2px 4px #0007;
+}
+
+:host([type='destructive']) #button {
+  background-color: #f00a;
+  border: 1px solid #f007;
+  color: #400;
+}
+
+:host([type='minor']) #button {
+  background-color: transparent;
+  border: 1px solid transparent;
+  box-shadow: none;
+}
+
+:host([type='minor']) #button:active {
+  padding-bottom: calc(var(--size-sm) - 1px);
+  padding-top: calc(var(--size-sm) + 1px);
+}
+
+:host([type='primary']) #button {
+  background-color: #07fa;
+  border: 1px solid #07f7;
+  color: #007;
+}
+
+:host([type='success']) #button {
+  background-color: #0a0a;
+  border: 1px solid #0a07;
+  color: #030;
+}
+
+:host([type='warning']) #button {
+  background-color: #aa0a;
+  border: 1px solid #7707;
+  color: #330;
+}

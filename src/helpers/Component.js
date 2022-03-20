@@ -2,10 +2,7 @@ export default class extends HTMLElement {
   constructor() {
     super();
     this.attachShadow({ mode: 'open' });
-    this.shadowRoot.innerHTML = `
-      ${this.constructor.styles}
-      ${this.render()}
-    `;
+    this.update();
   }
 
   connectedCallback() {
@@ -25,6 +22,9 @@ export default class extends HTMLElement {
   }
 
   update() {
-    this.shadowRoot.innerHTML = this.render();
+    this.shadowRoot.innerHTML = `
+      ${this.constructor.styles}
+      ${this.render()}
+    `;
   }
 }
