@@ -1,6 +1,6 @@
 :host {
-  background-color: var(--ui-layout-band-background-color);
-  color: var(--ui-layout-band-font-color);
+  background-color: var(--ui-band-background-color);
+  color: var(--ui-band-font-color);
   display: block;
   padding: var(--padding-size);
   padding-left: 0;
