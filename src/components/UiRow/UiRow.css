@@ -1,3 +1,30 @@
 :host {
+  align-items: center;
   display: flex;
+  gap: var(--size-md);
+}
+
+:host([gap='none']),
+:host([no-gap]) {
+  gap: 0;
+}
+
+:host([gap='xs']) {
+  gap: var(--size-xs);
+}
+
+:host([gap='sm']) {
+  gap: var(--size-sm);
+}
+
+:host([gap='lg']) {
+  gap: var(--size-lg);
+}
+
+:host([gap='xl']) {
+  gap: var(--size-xl);
+}
+
+:host([gap='xxl']) {
+  gap: var(--size-xxl);
 }
