@@ -23,7 +23,7 @@ export default class extends HTMLElement {
 
   update() {
     this.shadowRoot.innerHTML = `
-      ${this.constructor.styles}
+      ${this.constructor.styles || ''}
       ${this.render()}
     `;
   }
