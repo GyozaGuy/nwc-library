@@ -1,0 +1,52 @@
+dialog {
+  border: 0;
+  border-radius: var(--border-radius);
+  box-shadow: 0 2px 4px #0007;
+  opacity: 0;
+  padding: 0;
+  transition: opacity 0.25s;
+}
+
+dialog::backdrop {
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.25s;
+}
+
+dialog[opened] {
+  opacity: 1;
+}
+
+dialog[opened]::backdrop {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+header {
+  align-items: center;
+  background-color: #ecebea;
+  display: flex;
+  font-size: 1.25em;
+  justify-content: space-between;
+  padding: var(--size-md);
+}
+
+#closeDialogButton {
+  background: 0;
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+}
+
+#closeDialogButton:hover {
+  text-shadow: 0 1px 2px #0007;
+}
+
+#content {
+  padding: var(--size-md);
+}
+
+footer {
+  background-color: #ecebea;
+  display: flex;
+  justify-content: flex-end;
+  padding: var(--size-md);
+}
