@@ -6,6 +6,10 @@ export default class extends HTMLElement {
   }
 
   connectedCallback() {
+    for (const slot of this.shadowRoot.querySelectorAll('slot')) {
+      slot.addEventListener('slotchange', ({ target }) => this.handleChildrenUpdate(target));
+    }
+
     this.connected();
   }
 
@@ -16,6 +20,8 @@ export default class extends HTMLElement {
   connected() {}
 
   disconnected() {}
+
+  handleChildrenUpdate() {}
 
   render() {
     return '<slot></slot>';
