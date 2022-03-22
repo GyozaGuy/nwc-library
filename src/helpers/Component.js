@@ -36,15 +36,19 @@ export default class extends HTMLElement {
           continue;
         }
 
-        for (const attr of child.attributes) {
-          const { name, value } = attr;
-
+        for (const { name, value } of child.attributes) {
           if (name === 'id') {
             this[value] = child;
           }
 
+          if (name.startsWith('#')) {
+            this[name.substr(1)] = child;
+            child.removeAttribute(name);
+          }
+
           if (name.startsWith('on')) {
             child.addEventListener(name.substr(2), this[value].bind(this));
+            child.removeAttribute(name);
           }
         }
 
@@ -56,7 +60,7 @@ export default class extends HTMLElement {
   }
 
   render() {
-    return '<slot id="slotr"></slot>';
+    return '<slot></slot>';
   }
 
   update() {
