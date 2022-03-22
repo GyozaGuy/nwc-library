@@ -9,7 +9,7 @@ export default class extends HTMLElement {
 
   connectedCallback() {
     for (const slot of this.shadowRoot.querySelectorAll('slot')) {
-      slot.addEventListener('slotchange', ({ target }) => this.handleChildrenUpdate(target));
+      slot.addEventListener('slotchange', ({ target }) => this.handleChildrenUpdated(target));
     }
 
     this.connected();
@@ -23,7 +23,7 @@ export default class extends HTMLElement {
 
   disconnected() {}
 
-  handleChildrenUpdate() {}
+  handleChildrenUpdated() {}
 
   populateReferences() {
     function checkAttrs(element) {
