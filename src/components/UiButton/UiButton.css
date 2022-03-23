@@ -15,7 +15,7 @@
 }
 
 :host([type='destructive']) #button {
-  background-color: #f00a;
+  background-color: #f00;
   border: 1px solid #f007;
   color: #400;
 }
@@ -32,19 +32,19 @@
 }
 
 :host([type='primary']) #button {
-  background-color: #07fa;
+  background-color: #07f;
   border: 1px solid #07f7;
   color: #007;
 }
 
 :host([type='success']) #button {
-  background-color: #0a0a;
+  background-color: #0a0;
   border: 1px solid #0a07;
   color: #030;
 }
 
 :host([type='warning']) #button {
-  background-color: #aa0a;
+  background-color: #cc0;
   border: 1px solid #7707;
   color: #330;
 }
