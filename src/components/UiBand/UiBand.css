@@ -2,7 +2,7 @@
   background-color: var(--ui-band-background-color);
   color: var(--ui-band-font-color);
   display: block;
-  padding: var(--padding-size);
+  padding: var(--padding);
   padding-left: 0;
   padding-right: 0;
   position: relative;

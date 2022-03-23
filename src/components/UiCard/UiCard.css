@@ -5,5 +5,5 @@
   color: var(--ui-card-font-color);
   display: inline-block;
   font-size: var(--font-size);
-  padding: var(--padding-size);
+  padding: var(--padding);
 }

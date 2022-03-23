@@ -29,13 +29,13 @@ The following variables are set with the default global styles:
   --size-xxl: 128px;
 
   --border-radius: 4px;
-  --padding-size: var(--size-md);
+  --padding: var(--size-md);
 }
 ```
 
 ### Bleed
 
-`bleed` attributes can be used to add a negative margin to elements that matches their current padding (if using `padding-size`, see below for details).
+`bleed` attributes can be used to add a negative margin to elements that matches their current padding (if using `padding`, see below for details).
 
 - `bleed` - sets the margin on all sides
 - `bleed-bottom` - sets the bottom margin
@@ -57,7 +57,7 @@ The font size can be set on any element using the `font-size` attribute. Valid v
 
 ### Padding
 
-Padding can be set on any element using the `padding-size` attribute. Valid values are:
+Padding can be set on any element using the `padding` attribute. Valid values are:
 
 - `xs`
 - `sm`

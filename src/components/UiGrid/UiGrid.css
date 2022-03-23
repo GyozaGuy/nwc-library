@@ -15,7 +15,7 @@
   gap: var(--size-xs);
 }
 
-:host([gap='xs']:not([no-padding]):not([padding-size])) {
+:host([gap='xs']:not([no-padding]):not([padding])) {
   padding: var(--size-xs);
 }
 
@@ -23,7 +23,7 @@
   gap: var(--size-sm);
 }
 
-:host([gap='sm']:not([no-padding]):not([padding-size])) {
+:host([gap='sm']:not([no-padding]):not([padding])) {
   padding: var(--size-sm);
 }
 
@@ -31,7 +31,7 @@
   gap: var(--size-lg);
 }
 
-:host([gap='lg']:not([no-padding]):not([padding-size])) {
+:host([gap='lg']:not([no-padding]):not([padding])) {
   padding: var(--size-lg);
 }
 
@@ -39,7 +39,7 @@
   gap: var(--size-xl);
 }
 
-:host([gap='xl']:not([no-padding]):not([padding-size])) {
+:host([gap='xl']:not([no-padding]):not([padding])) {
   padding: var(--size-xl);
 }
 
@@ -47,7 +47,7 @@
   gap: var(--size-xxl);
 }
 
-:host([gap='xxl']:not([no-padding]):not([padding-size])) {
+:host([gap='xxl']:not([no-padding]):not([padding])) {
   padding: var(--size-xxl);
 }
 
