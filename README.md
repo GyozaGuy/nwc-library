@@ -74,11 +74,11 @@ These components have some basic styles set using the CSS variables listed above
 
 #### Attributes
 
-**background-color**
+_background-color_
 
 Sets the background color.
 
-**size**
+_size_
 
 Sets the amount of space surrounding the component. Valid values are:
 
@@ -101,7 +101,7 @@ Sets the amount of space surrounding the component. Valid values are:
 
 #### Attributes
 
-**type**
+_type_
 
 Sets the button type. Valid types include:
 
